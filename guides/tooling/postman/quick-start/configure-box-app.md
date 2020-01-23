@@ -14,7 +14,6 @@ parent_id: tooling/postman/quick-start
 next_page_id: tooling/postman/quick-start/log-in-to-box
 previous_page_id: tooling/postman/quick-start/install-postman
 ---
-
 <!-- alex disable postman-postwoman -->
 
 # Configure a Box App
@@ -31,9 +30,9 @@ extra steps to set up.
 
 ## Select a Box App to use
 
-<Grid columns='2'>
+<Grid columns="2">
 
-<Choose option='postman.app_type' value='use_own' color='blue'>
+<Choose option="postman.app_type" value="use_own" color="blue">
 
 # Use your own Box app
 
@@ -48,7 +47,7 @@ to keep your **Access Token** fresh indefinitely.
 
 </Choose>
 
-<Choose option='postman.app_type' value='use_box' color='red'>
+<Choose option="postman.app_type" value="use_box" color="red">
 
 # Use our preconfigured Box app
 
@@ -64,7 +63,7 @@ need to come back to this guide every hour to refresh it.
 
 </Grid>
 
-<Choice option='postman.app_type' value='use_own' color='blue'>
+<Choice option="postman.app_type" value="use_own" color="blue">
 
 # Create a Box app
 
@@ -75,21 +74,21 @@ If you do not have a Box account you can sign up for a [free
 developer][signup] account for testing purposes.
 
 1. Go to the [Developer Console][devconsole]
-1. Select **Create New App**
-1. Select **Custom App** as the type of application to create, and click **Next**
-1. Select **Standard OAuth 2.0** as the authentication method, and click
-**Next**
-1. Give your Box app a unique name and click **Create App**
-1. Go to the app's configuration by clicking **View Your App**.
-1. Scroll down to the **OAuth 2.0 redirect URI** configuration and set the
-**Redirect URI** to the value `https://developer.box.com/auth/callback`.
-1. Optionally, scroll to the **Application Scopes** section of the same screen
-and select any additional permissions you want to enable for this application.
-1. At the top of the page click the button to **Save Changes**
+2. Select **Create New App**
+3. Select **Custom App** as the type of application to create, and click **Next**
+4. Select **Standard OAuth 2.0** as the authentication method, and click
+   **Next**
+5. Give your Box app a unique name and click **Create App**
+6. Go to the app's configuration by clicking **View Your App**.
+7. Scroll down to the **OAuth 2.0 redirect URI** configuration and set the
+   **Redirect URI** to the value `https://developer.box.com/auth/callback`.
+8. Optionally, scroll to the **Application Scopes** section of the same screen
+   and select any additional permissions you want to enable for this application.
+9. At the top of the page click the button to **Save Changes**
 
 </Choice>
 
-<Choice option='postman.app_type' value='use_own' color='blue'>
+<Choice option="postman.app_type" value="use_own" color="blue">
 
 # Copy API credentials
 
@@ -97,18 +96,12 @@ Once you've created a Box app, scroll down to the **OAuth 2.0 Credentials**
 section of your **Box App** and copy the **Client ID** and **Client Secret** into
 the fields below.
 
-<Store
-id='postman_credentials.client_id'
-placeholder='zECq2EkYBjZ...'
-pattern='\w{32}'>
+<Store id="postman_credentials.client_id" placeholder="zECq2EkYBjZ..." pattern="\w{32}">
 Client ID
 
 </Store>
 
-<Store
-id='postman_credentials.client_secret'
-placeholder='913td9hr6jo...'
-pattern='\w{32}'>
+<Store id="postman_credentials.client_secret" placeholder="913td9hr6jo..." pattern="\w{32}">
 Client Secret
 
 </Store>
@@ -117,7 +110,7 @@ We will use these credentials to authenticate your application in the next step.
 
 </Choice>
 
-<Choice option='postman.app_type' value='use_own' color='none'>
+<Choice option="postman.app_type" value="use_own" color="none">
 
 <Message danger>
 
@@ -131,9 +124,9 @@ this guide.
 
 </Choice>
 
-<Choice option='postman.app_type' value='use_box,use_own' color='none'>
+<Choice option="postman.app_type" value="use_box,use_own" color="none">
 
-## Summary
+## まとめ
 
 * You either selected to use your own **Box App** and
   * Signed up for a developer account (Optional)
@@ -145,7 +138,7 @@ this guide.
 
 </Choice>
 
-<Observe option='postman.app_type' value='use_box,use_own'>
+<Observe option="postman.app_type" value="use_box,use_own">
 <Next>
 
 I have configured a Box app
@@ -155,4 +148,5 @@ I have configured a Box app
 </Observe>
 
 [devconsole]: https://account.box.com/developers/services
+
 [signup]: https://account.box.com/signup/n/developer

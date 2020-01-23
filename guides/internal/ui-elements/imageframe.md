@@ -12,12 +12,11 @@ parent_id: internal/ui-elements
 next_page_id: internal/ui-elements
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
 # Image Frame
 
-An image can be wrapped into a frame.
+画像は、フレーム内にラップすることができます。
 
 ```html
 <ImageFrame border center shadow width='200'>
@@ -27,9 +26,9 @@ An image can be wrapped into a frame.
 
 <H>
 
-<ImageFrame border center shadow width='200'>
+<ImageFrame border center shadow width="200">
 
-![Image](./box.jpg)
+![画像](./box.jpg)
 
 </ImageFrame>
 

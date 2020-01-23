@@ -12,7 +12,6 @@ parent_id: internal/markdown
 next_page_id: ''
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
 # Code Blocks
@@ -22,11 +21,11 @@ previous_page_id: ''
 Not all code samples exist in the SDK or CLI documentation. You can add new code
 samples using standard Markdown back ticks.
 
-~~~sh
+````sh
 ```js
 console.log('Hello, World!')
 ```
-~~~
+````
 
 <H>
 

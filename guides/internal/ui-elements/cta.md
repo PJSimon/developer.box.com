@@ -12,7 +12,6 @@ parent_id: internal/ui-elements
 next_page_id: internal/ui-elements
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
 # Call to Action (CTA)
@@ -28,7 +27,7 @@ stand out from the rest of the text.
 
 <H>
 
-<CTA to='guide://files/get'>
+<CTA to="guide://files/get">
 Learn more about files
 
 </CTA>

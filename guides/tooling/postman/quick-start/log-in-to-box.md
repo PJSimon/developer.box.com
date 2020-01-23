@@ -17,10 +17,9 @@ parent_id: tooling/postman/quick-start
 next_page_id: tooling/postman/quick-start/load-postman-collection
 previous_page_id: tooling/postman/quick-start/configure-box-app
 ---
-
 # Log in to Box
 
-<Choice option='postman.app_type' value='use_own' color='none'>
+<Choice option="postman.app_type" value="use_own" color="none">
 
 In the previous step you chose to use your own **Box App** for authenticating
 Postman.
@@ -32,13 +31,13 @@ to log you in and create an **Access Token** for your user.
 
 Currently you have provided us with the following information.
 
-<Store disabled inline id='postman_credentials.client_id'>
+<Store disabled inline id="postman_credentials.client_id">
 
 Client ID
 
 </Store>
 
-<Store disabled inline obscured id='postman_credentials.client_secret'>
+<Store disabled inline obscured id="postman_credentials.client_secret">
 
 Client Secret
 
@@ -56,15 +55,15 @@ straightforward for you with the button below.
 
 ## Log into your Box app
 
-<Trigger option='postman.login' value='clicked'>
+<Trigger option="postman.login" value="clicked">
 
-<LoginButton id='postman_credentials' >
+<LoginButton id="postman_credentials">
 
 </LoginButton>
 
 </Trigger>
 
-<LoggedIn id='postman_credentials'>
+<LoggedIn id="postman_credentials">
 
 ## You are now logged in
 
@@ -76,19 +75,19 @@ We then [exchanged](e://post-oauth2-token) this short-lived `code` for a
 longer lived **Access Token** and **Refresh Token**. These tokens represent
 you, the **User**.
 
-<Store disabled inline id='postman_credentials' field='name'>
+<Store disabled inline id="postman_credentials" field="name">
 
 Your name
 
 </Store>
 
-<Store disabled inline obscured id='postman_credentials' field='access_token'>
+<Store disabled inline obscured id="postman_credentials" field="access_token">
 
-Access Token
+アクセストークン
 
 </Store>
 
-<Store disabled inline obscured id='postman_credentials' field='refresh_token'>
+<Store disabled inline obscured id="postman_credentials" field="refresh_token">
 
 Refresh Token
 
@@ -108,7 +107,7 @@ later in this guide.
 
 </Choice>
 
-<Choice option='postman.app_type' value='use_box' color='none'>
+<Choice option="postman.app_type" value="use_box" color="none">
 
 In the previous step you chose to use our preconfigured **Box App**.
 
@@ -129,9 +128,9 @@ straightforward for you with the button below.
 
 ## Log into your Box app
 
-<Trigger option='postman.login' value='clicked'>
+<Trigger option="postman.login" value="clicked">
 
-<LoginButton >
+<LoginButton>
 
 </LoginButton>
 
@@ -149,19 +148,19 @@ We then [exchanged](e://post-oauth2-token) this short-lived `code` for a
 longer lived **Access Token** and **Refresh Token**. These tokens represent
 you, the **User**.
 
-<Store disabled inline id='credentials' field='name'>
+<Store disabled inline id="credentials" field="name">
 
 Your name
 
 </Store>
 
-<Store disabled inline obscured id='credentials' field='access_token'>
+<Store disabled inline obscured id="credentials" field="access_token">
 
-Access Token
+アクセストークン
 
 </Store>
 
-<Store disabled inline obscured id='credentials' field='refresh_token'>
+<Store disabled inline obscured id="credentials" field="refresh_token">
 
 Refresh Token
 
@@ -181,7 +180,7 @@ later in this guide.
 
 </Choice>
 
-<Choice option='postman.app_type' unset color='none'>
+<Choice option="postman.app_type" unset color="none">
 
 <Message danger>
 
@@ -194,9 +193,9 @@ to use.
 
 </Choice>
 
-<Choice option='postman.app_type' value='use_box,use_own' color='none'>
+<Choice option="postman.app_type" value="use_box,use_own" color="none">
 
-## Summary
+## まとめ
 
 * You logged into your **Box account** using your own **Box App** or our
   preconfigured app
@@ -206,7 +205,7 @@ to use.
 
 </Choice>
 
-<Observe option='postman.login' value='clicked'>
+<Observe option="postman.login" value="clicked">
 
 <Next>
 

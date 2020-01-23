@@ -12,7 +12,6 @@ parent_id: internal/flow
 next_page_id: internal/flow/choices
 previous_page_id: internal/flow
 ---
-
 <!-- does not need translation -->
 
 # Observe & Trigger
@@ -34,13 +33,13 @@ when the download link has been clicked.
 
 <H>
 
-<Trigger option='example.trigger' value='win32'>
+<Trigger option="example.trigger" value="win32">
 
 [Download](https://dl.pstmn.io/download/latest/win32)
 
 </Trigger>
 
-<Observe option='example.trigger' value='win32'>
+<Observe option="example.trigger" value="win32">
 
 ...
 
@@ -88,19 +87,19 @@ list.
 
 <H>
 
-<Trigger option='example.multiple' value='win32'>
+<Trigger option="example.multiple" value="win32">
 
 [Download](https://dl.pstmn.io/download/latest/win32)
 
 </Trigger>
 
-<Trigger option='example.multiple' value='macos'>
+<Trigger option="example.multiple" value="macos">
 
 [Download](https://dl.pstmn.io/download/latest/macos)
 
 </Trigger>
 
-<Observe option='example.multiple' value='win32,macos'>
+<Observe option="example.multiple" value="win32,macos">
 ...
 
 </Observe>
@@ -121,7 +120,7 @@ instead.
 
 <H>
 
-<Observe option='example.unset' unset>
+<Observe option="example.unset" unset>
 
 ...
 

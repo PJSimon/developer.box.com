@@ -12,7 +12,6 @@ parent_id: internal/ui-elements
 next_page_id: internal/ui-elements
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
 # Message
@@ -21,7 +20,7 @@ A message is a way to show a user that something is worth noting.
 
 ## Message types
 
-### Default message
+### デフォルトのメッセージ
 
 The lowest level of message is default message. Either explicitly set the type, or
 omit the type. Use this message type for messages that are not essential to be read.
@@ -40,13 +39,13 @@ omit the type. Use this message type for messages that are not essential to be r
 
 <Message>
 
-A default note
+デフォルトのメモ
 
 </Message>
 
 </H>
 
-## Notice message
+## 通知メッセージ
 
 The next level is a notice. Use this message type for messages that are notices
 but would not break anything for the user if ignored.
@@ -59,20 +58,19 @@ but would not break anything for the user if ignored.
 <Message notice>
   A notice message
 </Message>
-
 ```
 
 <H>
 
 <Message Notice>
 
-A notice message
+通知メッセージ
 
 </Message>
 
 </H>
 
-## Warning message
+## 警告メッセージ
 
 The next level of message is a warning. Use this message type for messages that
 are notices that might cause an error or exception for the user if ignored, or
@@ -93,13 +91,13 @@ action previously described.
 
 <Message warning>
 
-A warning note
+警告メモ
 
 </Message>
 
 </H>
 
-## Danger message
+## 危険メッセージ
 
 The final level of message is a danger warning. Use this message type for
 messages that are notices that can be attached to actions that will likely cause
@@ -119,13 +117,13 @@ an error or exception for the user.
 
 <Message danger>
 
-Danger zone!
+危険なゾーン
 
 </Message>
 
 </H>
 
-## Title
+## タイトル
 
 A message can have a title. Please only use `<h1>` titles.
 
@@ -141,9 +139,9 @@ A message can have a title. Please only use `<h1>` titles.
 
 <Message>
 
-# A title
+# タイトル
 
-A default note
+デフォルトのメモ
 
 </Message>
 
@@ -161,7 +159,7 @@ A message can be made smaller than the default.
 
 <H>
 
-<Message size='small'>
+<Message size="small">
 
 A small note
 

@@ -16,7 +16,6 @@ parent_id: tooling/postman
 next_page_id: tooling/postman/make-api-call
 previous_page_id: ''
 ---
-
 <!-- alex disable postman-postwoman -->
 
 # Install Postman & Collection
@@ -25,7 +24,7 @@ To use the **Box Postman Collection** you will need to have
 [Postman][postman] installed on your device.
 Postman is available for Windows, Mac, and Linux environments.
 
-<Grid columns='4'>
+<Grid columns="4">
 
 <Download>
 
@@ -76,9 +75,10 @@ With the Postman App installed the **Box Postman Collection** can be loaded into
 it. Clicking the button below you will load the **Box Postman
 Collection** into Postman.
 
-<Postman id='62d85bbca8bf7bd5a48b' >
+<Postman id="62d85bbca8bf7bd5a48b">
 
 </Postman>
 
 [register]: https://identity.getpostman.com/signup
+
 [postman]: https://getpostman.com

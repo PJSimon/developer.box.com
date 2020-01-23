@@ -12,7 +12,6 @@ parent_id: internal
 next_page_id: ''
 previous_page_id: internal/ui-elements/cta
 ---
-
 <!-- does not need translation -->
 
 # Documentation UI

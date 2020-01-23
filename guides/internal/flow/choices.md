@@ -12,7 +12,6 @@ parent_id: internal/flow
 next_page_id: internal/flow/store
 previous_page_id: internal/flow/observer
 ---
-
 <!-- does not need translation -->
 
 # Choose & Choice
@@ -49,9 +48,9 @@ user choices. They provide a convenient abstraction around the `Observe` and
 
 <H>
 
-<Grid columns='2'>
+<Grid columns="2">
 
-<Choose option='example.choose_a' value='1' color='blue'>
+<Choose option="example.choose_a" value="1" color="blue">
 
 # Option 1
 
@@ -59,7 +58,7 @@ Explanation of option
 
 </Choose>
 
-<Choose option='example.choose_a' value='2' color='red'>
+<Choose option="example.choose_a" value="2" color="red">
 
 # Option 2
 
@@ -69,13 +68,13 @@ Explanation of option
 
 </Grid>
 
-<Choice option='example.choose_a' value='1' color='blue'>
+<Choice option="example.choose_a" value="1" color="blue">
 
 You chose option 1
 
 </Choice>
 
-<Choice option='example.choose_a' value='2' color='red'>
+<Choice option="example.choose_a" value="2" color="red">
 
 You chose option 2
 
@@ -125,7 +124,7 @@ instead.
 
 <H>
 
-<Choose option='example.choose_b' value='1'>
+<Choose option="example.choose_b" value="1">
 
 # Option 1
 
@@ -133,7 +132,7 @@ Explanation of option
 
 </Choose>
 
-<Choice option='example.choose_b' unset>
+<Choice option="example.choose_b" unset>
 
 This should show by default and hide when the above choice is clicked.
 

@@ -12,7 +12,6 @@ parent_id: internal/flow
 next_page_id: internal/flow/observer
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
 # Next

@@ -12,7 +12,6 @@ parent_id: internal/markdown
 next_page_id: ''
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
 # Links

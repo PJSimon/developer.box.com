@@ -12,10 +12,9 @@ parent_id: internal/ui-elements
 next_page_id: internal/ui-elements
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
-# Samples
+# サンプル
 
 Samples represent a set of sample code blocks extracted from the CLI, SDK, and
 cURL repositories. These code samples are automatically extracted from the
@@ -31,11 +30,11 @@ Samples are specified by using the ID of the endpoint.
 
 <H>
 
-<Samples id='get_files_id'/>
+<Samples id="get_files_id">
 
 </H>
 
-## Variants
+## バリアント
 
 By default the `default` variant is selected for a sample. For some samples
 different variations exist. They can be specified by passing a `variant` name in.
@@ -46,6 +45,6 @@ different variations exist. They can be specified by passing a `variant` name in
 
 <H>
 
-<Samples id='post_folders_id_copy' variant='with_name' />
+<Samples id="post_folders_id_copy" variant="with_name">
 
 </H>

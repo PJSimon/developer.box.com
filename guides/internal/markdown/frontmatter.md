@@ -12,7 +12,6 @@ parent_id: internal/markdown
 next_page_id: ''
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
 # Frontmatter
@@ -24,7 +23,6 @@ between two sets of dashes.
 ---
 id: 1
 ---
-
 Markdown content
 ```
 
@@ -32,7 +30,7 @@ Markdown content
 
 We support the following frontmatter in our documentation:
 
-| Key                 | Description                                                                                                                                                                                              |
+| キー                  | 説明                                                                                                                                                                                                       |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `alias_paths`       | A list of paths to redirect from to this page. Used to smoothly redirect old URLs to new ones                                                                                                            |
 | `centered`          | Wraps a page (not a guide) in a `<Centered>` element in order to center the content in the middle of the page.                                                                                           |

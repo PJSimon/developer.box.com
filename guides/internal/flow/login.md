@@ -12,7 +12,6 @@ parent_id: internal/flow
 next_page_id: ''
 previous_page_id: internal/flow/store
 ---
-
 <!-- does not need translation -->
 
 # Log in
@@ -93,7 +92,7 @@ A reset button can be shown to allow a user to clear their credentials.
 
 <H>
 
-<ResetButton id='credentials'>
+<ResetButton id="credentials">
 
 Reset all credentials
 

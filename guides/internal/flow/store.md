@@ -12,7 +12,6 @@ parent_id: internal/flow
 next_page_id: internal/flow/login
 previous_page_id: internal/flow/choices
 ---
-
 <!-- does not need translation -->
 
 # Store
@@ -30,7 +29,7 @@ By displaying a store a user is provided with a text field
 
 <H>
 
-<Store placeholder='e.g. John' id='example.store_a'>
+<Store placeholder="e.g. John" id="example.store_a">
 
 Your name
 
@@ -81,7 +80,7 @@ and obscure any sensitive data as follows.
 
 <H>
 
-<Store id='example.store_a' disabled inline obscured>
+<Store id="example.store_a" disabled inline obscured>
 
 Your name
 
@@ -103,7 +102,7 @@ passed in.
 
 <H>
 
-<ResetButton id='example'>
+<ResetButton id="example">
 
 Reset all IDs starting with example.
 

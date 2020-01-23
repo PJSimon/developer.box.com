@@ -14,7 +14,6 @@ parent_id: tooling/postman/quick-start
 next_page_id: tooling/postman/quick-start/next-steps
 previous_page_id: tooling/postman/quick-start/load-postman-collection
 ---
-
 <!-- alex disable postman-postwoman -->
 
 # Make an API call
@@ -28,7 +27,7 @@ in as.
 Now that you've imported the Box API credentials into Postman you should take a
 moment to remove these credentials from your browser's storage.
 
-<ResetButton id='postman,credentials,observable_events'>
+<ResetButton id="postman,credentials,observable_events">
 Clear credentials
 
 </ResetButton>
@@ -111,7 +110,7 @@ an access token in Postman](g://tooling/postman/refresh) for more details.
 
 </Message>
 
-## Summary
+## まとめ
 
 * You selected the Postman environment to use for making API calls to Box
 * You made your first API call to Box, requesting the folder items for your

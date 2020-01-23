@@ -12,7 +12,6 @@ parent_id: tooling/postman/quick-start
 next_page_id: tooling/postman/quick-start/make-api-call
 previous_page_id: tooling/postman/quick-start/log-in-to-box
 ---
-
 <!-- alex disable postman-postwoman -->
 
 # Load Postman Collection
@@ -30,9 +29,9 @@ By clicking the button below you will load the **Box Postman
 Collection** into your Postman application. In the same click it will also
 load your **Access Token** into a Postman environment.
 
-<Trigger option='postman_collection_downloaded' value='true'>
+<Trigger option="postman_collection_downloaded" value>
 
-<Postman id='62d85bbca8bf7bd5a48b' >
+<Postman id="62d85bbca8bf7bd5a48b">
 
 </Postman>
 
@@ -40,7 +39,7 @@ load your **Access Token** into a Postman environment.
 
 </LoggedIn>
 
-<LoggedIn id='postman_credentials'>
+<LoggedIn id="postman_credentials">
 
 Now that you are logged in we can load the **Box Postman Collection** into the
 **Postman App** that we installed previously. When we load the Postman
@@ -54,9 +53,9 @@ Collection** into your Postman application. In the same click it will also
 load your **Access Token**, **Refresh Token**, **Client ID** and **Client
 Secret** into a Postman environment.
 
-<Trigger option='postman_collection_downloaded' value='true'>
+<Trigger option="postman_collection_downloaded" value>
 
-<Postman id='62d85bbca8bf7bd5a48b' env='postman_credentials' >
+<Postman id="62d85bbca8bf7bd5a48b" env="postman_credentials">
 
 </Postman>
 
@@ -64,7 +63,7 @@ Secret** into a Postman environment.
 
 </LoggedIn>
 
-<Choice option='postman_collection_downloaded' value='true' color='none'>
+<Choice option="postman_collection_downloaded" value color="none">
 
 ## Exploring the collection
 
@@ -81,14 +80,14 @@ appear within the app in the left-hand sidebar.
 You can click on the collection to open it up and explore our over 170 API
 endpoints.
 
-## Summary
+## まとめ
 
 * You loaded the Postman collection into Postman
 * You additionally loaded your Box Postman environment into Postman
 
 </Choice>
 
-<Choice option='postman.app_type' value='use_box' color='none'>
+<Choice option="postman.app_type" value="use_box" color="none">
 
 <LoggedIn reverse>
 
@@ -104,25 +103,9 @@ Please complete the previous steps to select and log in to a **Box App**.
 
 </Choice>
 
-<Choice option='postman.app_type' value='use_own' color='none'>
+<Choice option="postman.app_type" value="use_own" color="none">
 
-<LoggedIn id='postman_credentials' reverse>
-
-<Message danger>
-
-# Incomplete previous step
-
-Please complete the previous steps to select and log in to a **Box App**.
-
-</Message>
-
-</LoggedIn>
-
-</Choice>
-
-<Choice option='postman.app_type' unset color='none'>
-
-<LoggedIn id='postman_credentials' reverse>
+<LoggedIn id="postman_credentials" reverse>
 
 <Message danger>
 
@@ -136,7 +119,23 @@ Please complete the previous steps to select and log in to a **Box App**.
 
 </Choice>
 
-<Observe option='postman_collection_downloaded' value='true'>
+<Choice option="postman.app_type" unset color="none">
+
+<LoggedIn id="postman_credentials" reverse>
+
+<Message danger>
+
+# Incomplete previous step
+
+Please complete the previous steps to select and log in to a **Box App**.
+
+</Message>
+
+</LoggedIn>
+
+</Choice>
+
+<Observe option="postman_collection_downloaded" value>
 
 <Next>
 

@@ -12,10 +12,9 @@ parent_id: internal/ui-elements
 next_page_id: internal/ui-elements
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
-# Header
+# ヘッダー
 
 On pages a header can be created. Please do not use this in guides.
 
@@ -27,7 +26,7 @@ On pages a header can be created. Please do not use this in guides.
 
 <H>
 
-<Header to='/guides' stroke centered uppercase>
+<Header to="/guides" stroke centered uppercase>
 Guides
 
 </Header>

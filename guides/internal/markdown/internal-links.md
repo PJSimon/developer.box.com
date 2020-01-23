@@ -12,10 +12,9 @@ parent_id: internal/markdown
 next_page_id: ''
 previous_page_id: ''
 ---
-
 <!-- does not need translation -->
 
-# Internal links
+# 内部リンク
 
 To link to the right internal guides, references, and endpoints, you can use the
 following syntax.
@@ -29,11 +28,11 @@ following syntax.
 
 <H>
 
-[Get a file by ID](endpoint://get_files_id)
+[IDを指定してファイルを取得](endpoint://get_files_id)
 
-[A file](resource://file)
+[ファイル](resource://file)
 
-[Get a file](guide://files/get)
+[ファイルを取得](guide://files/get)
 
 [Box](https://box.com)
 
@@ -59,11 +58,11 @@ Additionally, the syntax can be shortened as follows:
 
 <H>
 
-[Get a file by ID](e://get_files_id)
+[IDを指定してファイルを取得](e://get_files_id)
 
-[A file](r://file)
+[ファイル](r://file)
 
-[Get a file](g://files/get)
+[ファイルを取得](g://files/get)
 
 [Box](https://box.com)
 

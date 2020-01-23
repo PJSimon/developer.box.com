@@ -16,7 +16,6 @@ parent_id: tooling/postman
 next_page_id: tooling/postman/legacy
 previous_page_id: tooling/postman/make-api-call
 ---
-
 <!-- alex disable postman-postwoman -->
 
 # Refresh an Access Token
